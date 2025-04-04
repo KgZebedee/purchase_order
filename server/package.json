@@ -8,7 +8,6 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix ../client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-    
   },
   "keywords": [],
   "author": "Kago@AutoTech",
@@ -19,7 +18,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongodb": "^6.13.1",
-    "mongoose": "^8.3.4"
+    "mongoose": "^8.13.2"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
